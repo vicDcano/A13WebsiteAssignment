@@ -7,8 +7,8 @@ response.write("Hello this is our first node.js application");
 response.end();
 });
 
-// Listen on port 8080 on localhost
-const port = 8080;
+// Listen on port 3030 on localhost
+const port = 3030;
 server.listen(port);
 // display a message on the terminal
 console.log("Server running at port=" + port);
